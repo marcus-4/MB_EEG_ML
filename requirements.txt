@@ -52,7 +52,10 @@ threadpoolctl==3.5.0
 tokenizers==0.20.4
 torch==2.5.1
 torch-geometric==2.6.1
+torch_cluster==1.6.3
 torch_scatter==2.1.2
+torch_sparse==0.6.18
+torch_spline_conv==1.2.2
 torchaudio==2.5.1
 torchview==0.2.6
 torchvision==0.20.1
