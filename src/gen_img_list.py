@@ -16,8 +16,8 @@ from dataset import EEGImageNetDataset
 from utilities import *
 from process_images import convert_image, image_exists
 
-# default="../data/"
-old_path = "/Users/marcus/Desktop/575/project/EEG-ImageNet-Dataset/data/"
+old_path="../data/"
+# old_path = "/Users/marcus/Desktop/575/project/EEG-ImageNet-Dataset/data/"
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()

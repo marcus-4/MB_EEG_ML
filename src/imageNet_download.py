@@ -49,9 +49,9 @@ def download_tar(url, download_path, extract_to=None):
 
 def main():       
     startp = 0
-
+    path=os.path.join("../data/wnids1000.txt")
     # read in the wordnet id list
-    infile = open("MB_EEG_ML/data/wnids1000.txt","r")
+    infile = open(path,"r")
     lines = infile.readlines()
     wnids = []
     for line in lines:
@@ -63,8 +63,8 @@ def main():
     for i in range(len(wnids)):
         print("wnids %s"%(wnids[i]))
         url = "https://image-net.org/data/winter21_whole/" + wnids[i] + ".tar"
-        download_path = "MB_EEG_ML/data/raw_imageNet_images/" + wnids[i] + ".tar"
-        extract_to = "MB_EEG_ML/data/raw_imageNet_images/" + wnids[i] + "/"
+        download_path = os.path.join("../data/raw_imageNet_images/" + wnids[i] + ".tar")
+        extract_to = os.path.join("../data/raw_imageNet_images/" + wnids[i] + "/")
 
 
         # url = "https://image-net.org/data/winter21_whole/n03709823.tar"

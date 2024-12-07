@@ -2,11 +2,12 @@
 
 /.idea/
 __pycache__/
-venv
+.venv
 
 EEG-ImageNet.pth
 /data/de_feat/
 /data/imageNet_images/
+!/data/imageNet_images/placeholder.txt
 /data/imageNet_images_old/
 /output
 **plot**

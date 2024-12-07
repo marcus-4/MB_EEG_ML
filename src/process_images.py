@@ -11,8 +11,8 @@ import cv2
 import os
 
 new_path =  "../data/imageNet_images/"
-old_path = "/Users/marcus/Desktop/575/project/EEG-ImageNet-Dataset/data/imageNet_images_old/"
-# old_path = "../data/raw_imageNet_images/"
+# old_path = "/Users/marcus/Desktop/575/project/EEG-ImageNet-Dataset/data/imageNet_images_old/"
+old_path = "../data/raw_imageNet_images/"
 
 output_size = 224
 
